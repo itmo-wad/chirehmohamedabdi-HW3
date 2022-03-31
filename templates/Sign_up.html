@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up </title>
+    <link href="{{ url_for('static', filename='css/login_style.css') }}" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class="div1">
+        <br>
+        <div class="log"> <img src="{{ url_for('static',filename='assets/img/child.jpg') }}" ></div>
+
+        <p class="lie2">Sign Up</p> 
+
+        <form  method="POST" action="" >
+            <p class="lie3">
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        <ul>
+                            {% for message in messages %}
+                                <li>{{ message }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% endwith %}
+            </p>
+            <p class="lie3"> username</p> 
+            <input name="username" type="text"  autofocus required>
+
+            <p class="lie3"> addresse mail</p> 
+            <input name="email" type="text"  autofocus required>
+
+            <p class="lie3">mots de passe</p>
+            <input name="password" type="password"  autofocus required>
+            <br><br><br>
+
+
+            <input  type="submit" value="se connecter" class="classe">
+            
+        </form>
+    </div>
+
+</body>
+</html>

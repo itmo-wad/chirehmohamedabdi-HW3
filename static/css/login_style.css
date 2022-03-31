@@ -1,0 +1,181 @@
+
+
+
+body{
+    background-image: url(/static/Assets/img/child.jpg);
+   background-size: 1370px 700px ;
+    margin:0% ;
+    padding: 0%;
+        
+}
+
+.div1 input[type="submit"]:hover
+{
+    background-color: rgb(69, 77, 66);
+
+}
+.div1 .lie:hover
+{
+    color: rgb(110, 128, 101);
+
+}
+
+.log img{
+
+    border-radius: 50%;
+    margin-left: 78px;
+    margin-top: -70px;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.lie2{
+    
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    margin-left: 45px;
+    font-size: 35px;
+    color: rgb(230, 230, 198);
+
+  
+    
+
+}
+.lie3{
+    font-size: 18px;
+
+    color: rgb(230, 230, 198);
+    
+    
+
+}
+.div1{
+    position: absolute;
+   margin-top: 500px;
+    text-decoration: white;
+    padding-left: 40px;
+    right: 39%;
+    bottom: 12%;
+
+    width: 300px;
+    height: 400px;
+    border-radius: 4%;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+::placeholder{
+    font-size: 13px;
+    
+}
+.div1 a {
+
+    text-decoration: none;
+
+}
+.lie{
+   
+    color:rgba(129, 231, 71,0.9);
+    font-size: 1em;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.classe{
+    text-emphasis: none;
+    text-align: center;
+    font-size: 25px;
+
+    background-color: rgba(129, 231, 71, 0.9);
+    border-radius: 5px 20px 5px 20px ;
+}
+.classe:hover{
+    background-color:  rgba(129, 231, 71, 0.2);    
+    color: ivory;
+}
+.div1 input[type="text"],
+.div1 input[type="password"]
+{
+    
+    color: ivory;
+    border: none;
+    border-bottom: 2px solid  rgba(129, 231, 71,0.9);
+    background: transparent  ;
+
+}
+
+input{
+    width: 80%;
+    border: none;
+    
+    border-bottom: 2px;
+    
+}
+li{
+    color:rgba(235, 208, 190, 0.5);
+}
+
+
+.css{
+    padding-right: 50px;
+    text-align: left;
+
+}
+
+.cla .css ul li:hover{
+
+    opacity: 1;
+    box-shadow: 20px  20px 45px   rgb(94, 84, 78) ;
+    cursor: pointer;
+    background-color: rgba(0,0,6,0.35 );
+    border-radius: 15px ;
+    color: rgba(235, 208, 190, 1);
+    
+}
+
+.cla .css ul li{
+    opacity: 0.65;
+    padding: 12px;
+    margin: 15px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.div1 input:focus ~ p
+{
+    cursor: pointer;
+    top: -10px;
+    left: 0;
+
+}
+pointer-events: none;
+    transition: .5s;
+    */

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', filename='css/newpost.scss') }}" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form method="POST" action="">
+            <div class="field" tabindex="1">
+                <label for="username">
+                    <i class="far fa-user">Title</i> 
+                </label>
+                <input name="title" type="text" placeholder="new Post" required>
+            </div>
+            <div class="field" tabindex="3">
+                <label for="message">
+                    <i class="far fa-edit">Your Message</i>
+                </label>
+                <textarea name="message" placeholder="Message... " required></textarea>
+            </div>
+            <button type="submit">Post</button>
+            
+        </form>
+    </div>
+    
+    <!-- This is not part of Pen -->
+    <a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="_blank" style="color:#000"></a>
+</body>
+</html>
